@@ -1,12 +1,41 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern movie app built with React. Browse movies, view details, cast, trailers, and recommendations.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ![App Preview](src/assets/image-overview.png)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Redux** – State management
+- **React Router DOM** – Client-side routing
+- **TailwindCSS** – Utility-first CSS framework
+- **Moment.js** – Date formatting
+- **The Movie Database API (TMDB)** – Movie data source
+- **React Icons** – Icon library
+
+---
+
+## Features
+
+- Explore movie and TV show details
+- View cast, director, and writer info
+- Play trailers directly inside the app
+- Browse similar and recommended titles
+- Fully responsive layout for all screen sizes
+
+---
+
+## 🛠️ Getting Started
+
+To run the project locally:
+
+# 2. Install dependencies
+
+npm install
+
+# 3. Start the development server
+
+npm run dev
